@@ -19,8 +19,9 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - dask
-    - imagecodecs
+    - dask-core
+    - imagecodecs  # ==2023.1.23
+    - numcodecs
     - numpy
     - napari
     - python >=3.8
@@ -36,7 +37,7 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/napari-mzarr/
+  home: https://pypi.org/project/napari-mzarr
   summary: A reader and writer plugin for the Mzarr image format.
   license: Apache-2.0
   license_file: LICENSE
