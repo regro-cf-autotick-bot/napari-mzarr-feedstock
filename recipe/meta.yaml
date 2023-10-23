@@ -20,7 +20,7 @@ requirements:
     - python >=3.8
   run:
     - dask-core
-    - imagecodecs  # ==2023.1.23
+    - imagecodecs ==2023.1.23
     - numcodecs
     - numpy
     - napari
